@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D7C6528423C43A586EF4C98 /* RAUMobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19802DAC95C06A1B5AE080E /* RAUMobileApp.swift */; };
+		1E3582C6F997DF0EA74EF2B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A317A1882B069B0D150B95 /* Assets.xcassets */; };
+		219CECF52E47C331318AF443 /* Loadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A412828EA85735D97402034 /* Loadable.swift */; };
+		229905836E775FC40FC31053 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93540093F62141CA4E9C3D59 /* Components.swift */; };
+		28AD64DDA733F374375D8E37 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4288DE3A81C3DE836CB29A5B /* Theme.swift */; };
+		3114E956253BFE0760B48157 /* AppLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB23D3B110B77C7352A6FAC1 /* AppLanguage.swift */; };
+		585A2A4AA5DFAE7FC1B66326 /* ArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1785C6AE035159B3FC124D7 /* ArticleView.swift */; };
+		837D4AC2FC4D396C1E95ADF5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1081A5DCAAA63E91AECCA817 /* HomeView.swift */; };
+		906ACDAF14689B8ECB7F28FE /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96048BF3669289C61F52A20 /* HomeViewModel.swift */; };
+		A15BBC52DC12A332896AC35B /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E801DEA327E0DAD9511626 /* RootTabView.swift */; };
+		ADFF939FFE63EA13D64CA26F /* PagedListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2953BBCEC8368B7C86900CCF /* PagedListViewModel.swift */; };
+		CE8F897830AC493300E73613 /* Chairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F897730AC493100E73613 /* Chairs.swift */; };
+		E258624BD41CB95EAF91E08C /* ListScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C36ACE9265DCA4320F197A /* ListScreens.swift */; };
+		F4412F51F8B15AB688018BC1 /* NetworkLayer in Frameworks */ = {isa = PBXBuildFile; productRef = 390B1B936750031CA42C5C1B /* NetworkLayer */; };
+		FF10E91AE8BB4D7BEC756DA6 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E1D1276C7BA55FCC677C8F /* AppModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1081A5DCAAA63E91AECCA817 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		10C36ACE9265DCA4320F197A /* ListScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListScreens.swift; sourceTree = "<group>"; };
+		19E1D1276C7BA55FCC677C8F /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		1A412828EA85735D97402034 /* Loadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loadable.swift; sourceTree = "<group>"; };
+		2953BBCEC8368B7C86900CCF /* PagedListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagedListViewModel.swift; sourceTree = "<group>"; };
+		38A317A1882B069B0D150B95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4288DE3A81C3DE836CB29A5B /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		93540093F62141CA4E9C3D59 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		A1785C6AE035159B3FC124D7 /* ArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleView.swift; sourceTree = "<group>"; };
+		A19802DAC95C06A1B5AE080E /* RAUMobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAUMobileApp.swift; sourceTree = "<group>"; };
+		A2E801DEA327E0DAD9511626 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		C96048BF3669289C61F52A20 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		CE8F897730AC493100E73613 /* Chairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chairs.swift; sourceTree = "<group>"; };
+		DB23D3B110B77C7352A6FAC1 /* AppLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLanguage.swift; sourceTree = "<group>"; };
+		E87EB2E1BC03FB01B533A8C4 /* RAU.am.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RAU.am.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A099FF94C67D69EF68FDB147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4412F51F8B15AB688018BC1 /* NetworkLayer in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FAB3311EC64AFD3B9FA822F = {
+			isa = PBXGroup;
+			children = (
+				B9F9BD14ABE6780BB7715C56 /* RAU.am */,
+				9531004F98EF0CECF0066120 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9531004F98EF0CECF0066120 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E87EB2E1BC03FB01B533A8C4 /* RAU.am.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9F9BD14ABE6780BB7715C56 /* RAU.am */ = {
+			isa = PBXGroup;
+			children = (
+				CE8F897730AC493100E73613 /* Chairs.swift */,
+				38A317A1882B069B0D150B95 /* Assets.xcassets */,
+				DB23D3B110B77C7352A6FAC1 /* AppLanguage.swift */,
+				19E1D1276C7BA55FCC677C8F /* AppModel.swift */,
+				A1785C6AE035159B3FC124D7 /* ArticleView.swift */,
+				93540093F62141CA4E9C3D59 /* Components.swift */,
+				1081A5DCAAA63E91AECCA817 /* HomeView.swift */,
+				C96048BF3669289C61F52A20 /* HomeViewModel.swift */,
+				10C36ACE9265DCA4320F197A /* ListScreens.swift */,
+				1A412828EA85735D97402034 /* Loadable.swift */,
+				2953BBCEC8368B7C86900CCF /* PagedListViewModel.swift */,
+				A19802DAC95C06A1B5AE080E /* RAUMobileApp.swift */,
+				A2E801DEA327E0DAD9511626 /* RootTabView.swift */,
+				4288DE3A81C3DE836CB29A5B /* Theme.swift */,
+			);
+			path = RAU.am;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9E48407ECDE615ED39A37EA /* RAU.am */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9101F1A8C5ECD3BB64688C61 /* Build configuration list for PBXNativeTarget "RAU.am" */;
+			buildPhases = (
+				76D07C3ADC20DD741FF33274 /* Sources */,
+				A099FF94C67D69EF68FDB147 /* Frameworks */,
+				C8E793176B11193FF7AB3182 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RAU.am;
+			packageProductDependencies = (
+				390B1B936750031CA42C5C1B /* NetworkLayer */,
+			);
+			productName = RAUApp;
+			productReference = E87EB2E1BC03FB01B533A8C4 /* RAU.am.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11830165E79A1B64B84F9BB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				ORGANIZATIONNAME = "Russian-Armenian University";
+				TargetAttributes = {
+					C9E48407ECDE615ED39A37EA = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 35405D1F0BEF4215C8EA8A64 /* Build configuration list for PBXProject "RAU.am" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FAB3311EC64AFD3B9FA822F;
+			packageReferences = (
+				0538E778ADDCD2F1568A5833 /* XCLocalSwiftPackageReference ".." */,
+			);
+			productRefGroup = 9531004F98EF0CECF0066120 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9E48407ECDE615ED39A37EA /* RAU.am */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8E793176B11193FF7AB3182 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E3582C6F997DF0EA74EF2B3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76D07C3ADC20DD741FF33274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3114E956253BFE0760B48157 /* AppLanguage.swift in Sources */,
+				FF10E91AE8BB4D7BEC756DA6 /* AppModel.swift in Sources */,
+				585A2A4AA5DFAE7FC1B66326 /* ArticleView.swift in Sources */,
+				229905836E775FC40FC31053 /* Components.swift in Sources */,
+				837D4AC2FC4D396C1E95ADF5 /* HomeView.swift in Sources */,
+				906ACDAF14689B8ECB7F28FE /* HomeViewModel.swift in Sources */,
+				E258624BD41CB95EAF91E08C /* ListScreens.swift in Sources */,
+				219CECF52E47C331318AF443 /* Loadable.swift in Sources */,
+				ADFF939FFE63EA13D64CA26F /* PagedListViewModel.swift in Sources */,
+				1D7C6528423C43A586EF4C98 /* RAUMobileApp.swift in Sources */,
+				A15BBC52DC12A332896AC35B /* RootTabView.swift in Sources */,
+				28AD64DDA733F374375D8E37 /* Theme.swift in Sources */,
+				CE8F897830AC493300E73613 /* Chairs.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		58C6225068D70BEE0D3FCBA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		97E062D678D9781C8C45C43A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A669F7F0232CB86C318B0A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F5RRG2L35B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RAU.am;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RAUApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6F69CE026984026C1C7F21D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F5RRG2L35B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RAU.am;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RAUApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35405D1F0BEF4215C8EA8A64 /* Build configuration list for PBXProject "RAU.am" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58C6225068D70BEE0D3FCBA8 /* Debug */,
+				97E062D678D9781C8C45C43A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9101F1A8C5ECD3BB64688C61 /* Build configuration list for PBXNativeTarget "RAU.am" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A669F7F0232CB86C318B0A74 /* Debug */,
+				C6F69CE026984026C1C7F21D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		0538E778ADDCD2F1568A5833 /* XCLocalSwiftPackageReference ".." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		390B1B936750031CA42C5C1B /* NetworkLayer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NetworkLayer;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 11830165E79A1B64B84F9BB5 /* Project object */;
+}
